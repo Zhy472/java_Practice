@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Collection<Integer> list = Collections.synchronizedCollection(new ArrayList<Integer>());
         HashMap<Integer,Integer>map = new HashMap<>();
+        System.out.println("喵喵喵");
     }
 }
 
