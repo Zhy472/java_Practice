@@ -1,5 +1,6 @@
 package demo;
 
+import javax.print.attribute.HashPrintServiceAttributeSet;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -8,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         Collection<Integer> list = Collections.synchronizedCollection(new ArrayList<Integer>());
-
+        HashMap<Integer,Integer>map = new HashMap<>();
     }
 }
 
